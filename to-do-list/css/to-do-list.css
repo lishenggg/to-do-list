@@ -1,0 +1,140 @@
+:root{
+    --black:black;
+    --white:white;
+    --light-grey:#d0d0d0;
+    --dark-grey:#161616;
+    --orange: #f96d00;
+}
+*{
+    color: var(--orange);
+}
+body{
+    background-color: var(--black);
+}
+
+
+/*navbar styles*/
+.nav-bar{
+    height: 50px;
+    background-color: var(--orange);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar>h1{
+    color: var(--white);
+}
+.search-bar-button{
+    width: 350px;
+    background-color: var(--white);
+    display: flex;
+    justify-self: start;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.search-bar-button>i{
+    color: var(--orange);
+}
+
+/*sidebar styles*/
+.sidebar{
+    float: left;
+    width: 300px;
+    height: calc(100vh - 50px);
+    background-color: var(--dark-grey);
+}
+
+
+/*task tool bar styles*/
+.task-toolbar-top{
+    height: 100px;
+}
+.task-toolbar-top-title-menu{
+    display: flex;
+    align-items: center;
+}
+#today-date{
+    color: var(--light-grey);
+    font-size: 13px;
+}
+
+/*main to do */
+
+.to-do-list-container{
+    height: calc(100vh - 50px);
+    overflow: hidden;
+}
+
+/*task display container*/
+.task-display-container{
+    height: calc(100vh - 70px - 100px - 50px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    flex-direction: column;
+}
+
+
+/*add new task input*/
+.add-new-task-container{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-new-task-input-container{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    background-color: var(--white);
+    border-radius: 8px;
+}
+.add-new-task-input-container input{
+    width: 95%;
+    float: right;
+    height: 38px;
+    border: none;
+}
+.add-new-task-input-container>i{
+    margin-left: 20px;
+}
+.add-new-task-input-container input::placeholder{
+    color: var(--orange);
+}
+.add-new-task-input-container input[type=text]{
+    padding-left: 10px;
+    font-weight: 400;
+}
+.add-new-task-container>button>i{
+    font-size: 32px;
+    font-weight: 600;
+}
+.completed{
+    text-decoration: line-through;
+}
+/*tasks*/
+.daily-new-task{
+    width: 95%;
+    height: 38px;
+    background-color: var(--white);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.daily-new-task:hover{
+    background-color: var(--light-grey);
+}
+.daily-new-task>input{
+    margin-left: 10px;
+    transform: scale(1.4);
+}
+
+.daily-new-task>i:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="sign-in.css">
+    <script src="../javascript/layout.js" defer></script>
+    <script src="sign-in.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <!--nav-->
+    <nav id="nav-bar">
+        <a href="../index.html" id="nav-brand">Li Sheng</a>
+    </nav>
+
+    <!--Sign in-->
+    <main id="main-content">
+        <section id="sign-in-container">
+            <h1>Sign In</h1>
+            <section id="sign-in-menu">
+               <div id="email">
+                    <label for="email-input">Email:</label><br>
+                    <input type="text" id="email-input" placeholder="email" class="sign-in-input">
+               </div>
+               <div id="password">
+                <label for="password-input">Password</label><br>
+                <input type="password" id="password-input" placeholder="password" class="sign-in-input">
+               </div>
+            </section>
+            <button id="next-sign-in-button">Next</button>
+            <a id="sign-in-help" href="#">Having Trouble Signing in?</a>
+            <p id="sign-up-heading">Or</p>
+            <a id="sign-up-button">Sign Up</a>
+        </section>
+    </main>
+</body>
+</html>

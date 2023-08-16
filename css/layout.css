@@ -1,0 +1,16 @@
+nav{
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+
+.nav-scrolled{
+    backdrop-filter: blur(30px);
+}
+
+#nav-brand{
+    font-weight: 700;
+    font-size: 21px;
+    margin: 15px;
+    color: black;
+}

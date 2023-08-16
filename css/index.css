@@ -1,0 +1,61 @@
+
+
+#landing-page{
+    padding-top: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+video{
+    width: 331px;
+    height: 340px;
+}
+#sign-in-button{
+    color: white;
+    background-color: black;
+    font-weight: 700;
+    font-size: 21px;
+    padding: 10px 25px;
+    margin: 45px 0;
+    border-radius: 40px;
+}
+
+#brand-name{
+    font-size: 96px;
+    font-weight: 700;
+}
+
+#description{
+    font-weight: 700;
+    font-size: 40px;
+    width:600px;
+}
+
+#landing-page-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-top: 120px;
+    margin-bottom: 200px;
+}
+
+.landing-page-content-descriptions{
+    width: 650px;
+    height: 479px;
+    border-radius: 20px;
+    box-shadow:  -2px 13px 24px -1px rgba(0,0,0,0.75);
+}
+
+footer{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(222, 222, 222);
+}
+
+footer>p{
+    font-size: 11px;
+}

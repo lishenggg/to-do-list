@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="css/to-do-list.css" />
+    <script src="javascript/layout.js" defer></script>
+    <script src="javascript/today-to-do.js" defer></script>
+    <title>To Do</title>
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <h1>To Do</h1>
+      <button class="search-bar-button"><i class="material-icons-outlined">search</i></button>
+    </nav>
+    <div class="sidebar">
+        sadasds
+    </div>
+    <main class="to-do-list-container">
+        <div class="task-toolbar-top">
+            <div class="task-toolbar-top-title-container">
+                <div class="task-toolbar-top-title-menu">
+                    <button id="menu-toggler"><i class="material-icons-outlined">menu</i></button>
+                    <h2>My Day</h2>
+                </div>
+                <p id="today-date"></p>
+            </div>
+        </div>
+
+        <!--task display-->
+        <div class="task-display-container">
+        </div>
+
+        <!--Input to add new task-->
+        <div class="add-new-task-container">
+                <div class="add-new-task-input-container"><i class="material-icons-outlined">check_box_outline_blank</i><input type="text" placeholder="New task" class="add-new-task-input"></div>
+                <button class="add-new-task-button"><i class="material-icons-outlined">add</i></button>
+        </div>
+    </main>
+  </body>
+</html>

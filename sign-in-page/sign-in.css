@@ -1,0 +1,94 @@
+#main-content{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sign-in-container{
+    width: 660px;
+    height: 754px;
+    border-radius: 30px;
+    box-shadow: 10px 5px 17px 0px rgba(0,0,0,0.57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sign-in-input{
+    width: 386px;
+    height: 40px;
+    border-radius: 10px;
+}
+.sign-in-input[type=text],.sign-in-input[type=password]{
+    padding: 0 12px;
+}
+#password{
+    transition: opacity 2s ease;
+    opacity: 0;
+    display: none;
+}
+
+#next-sign-in-button{
+    width: 386px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+#sign-in-help{
+    margin-top: 25px;
+    font-size: 15px;
+    color: black;
+    border-bottom:2px solid;
+}
+
+#sign-up-heading{
+    position: relative;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(110, 110, 110);
+}
+
+#sign-up-heading::before{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    width: 170px;
+    height: 2px;
+    background-color: rgb(194, 194, 194);
+}
+
+#sign-up-heading::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    width: 170px;
+    height: 2px;
+    background-color: rgb(194, 194, 194);
+}
+
+#sign-up-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 386px;
+    height: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(190, 190, 190);
+    border: none;
+    cursor: pointer;
+}
+
