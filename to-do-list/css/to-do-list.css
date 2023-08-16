@@ -133,7 +133,7 @@ body{
     transform: scale(1.4);
 }
 
-.daily-new-task>i:hover{
+.daily-new-task>button>i:hover{
     opacity: 0.6;
     transition: 0.5s;
 }
